@@ -2,7 +2,11 @@
 
 ## Set Up
 
-First, fork and clone this repo.  In the `starter-code` folder, you will need to install your bower dependencies.  Then, start your `simpleHTTPServer` with `python` to see a fully functioning Angular app.  Cool, right?  But not very modern.
+First, fork and clone this repo.  
+
+In the `starter-code` folder, you will need to install your bower dependencies.  
+
+Then, start your `simpleHTTPServer` with `python` to see a fully functioning Angular app.  Cool, right?  But not very modern.
 
 Throughout this lab, we will slowly turn our Angular 1 app into an Angular 2 app, using our good friend, **refactoring**.
 
