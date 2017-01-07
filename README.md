@@ -28,7 +28,7 @@ The amount of files in this project is a little daunting, but you only need to w
 - Now, the fun part.  Slowly add the pieces of your Angular 1 app from `starter-code/index.html` to `app/templates/cartoon.html` and from `starter-code/client.js` to `app/app.component.ts`.  You can find the code you'll need in [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html).
 - In addition to `app.component.ts` and `cartoon.html`, you may also need to change `app.module.ts` as you go through this refactoring.
 - Once you have all the HTML in `cartoon.html`, use the new Angular 2 `styleUrls` method to include `cartoonStyle.css`.
-- Finally, see if you can get `MyFactory` injected into your component.
+- Finally, see if you can get `MyFactory` injected into your component.  Note that there are a lot of ways to do this, and it is quite tricky.  Hint: `export`ing and `import`ing a class is a good place to start.
 
 ## Deliverable
 
