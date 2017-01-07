@@ -10,7 +10,7 @@ Then, start your `simpleHTTPServer` with `python` to see a fully functioning Ang
 
 Throughout this lab, we will slowly turn our Angular 1 app into an Angular 2 app, using our good friend, **refactoring**.
 
-If you get stuck, you should use [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html) on the Angular 1 and Angular 2 code differences.
+If you get stuck, you should use [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html) on the Angular 1 and Angular 2 code differences, as well as a healthy amount of Google.
 
 ## Set Up Round Two
 
