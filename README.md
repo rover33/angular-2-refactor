@@ -26,7 +26,8 @@ The amount of files in this project is a little daunting, but you only need to w
 
 - First, you should probably create an HTML template that is referenced by Url rather than written as a string.  Create a new `templates` folder and put it inside `app`.  How would you replace the hardcoded template with this file? (Hint: It's basically the same as for `ngRoute` in Angular.)
 - Now, the fun part.  Slowly add the pieces of your Angular 1 app from `starter-code/index.html` to `app/templates/cartoon.html` and from `starter-code/client.js` to `app/app.component.ts`.  You can find the code you'll need in [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html).
+- In addition to `app.component.ts` and `cartoon.html`, you may also need to change `app.module.ts` as you go through this refactoring.
 
 ## Deliverable
 
-When you are finished, you should be able to remove the Angular 1 `<script>` from your `index.html` and still have a fully functioning Angular app.  Only now, it's an Angular 2 app.
+When you are finished, you should be able to look at your Angular 2 and Angular 1 apps side-by-side and see no major differences.  Feel free to rename your `quickstart` folder to something more useful like `angular-2` or `angular-cartoon`.
