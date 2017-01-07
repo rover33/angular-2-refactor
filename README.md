@@ -1,1 +1,5 @@
-# angular-2-refactor
+# Angular 2 Refactoring Lab
+
+## Set up
+
+In the `starter-code` folder
