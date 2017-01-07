@@ -1,5 +1,28 @@
 # Angular 2 Refactoring Lab
 
-## Set up
+## Set Up
 
-In the `starter-code` folder
+First, fork and clone this repo.  In the `starter-code` folder, you will need to install your bower dependencies.  Then, start your `simpleHTTPServer` with `python` to see a fully functioning Angular app.  Cool, right?  But not very modern.
+
+Throughout this lab, we will slowly turn our Angular 1 app into an Angular 2 app, using our good friend, **refactoring**.
+
+If you get stuck, you should use [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html) on the Angular 1 and Angular 2 code differences.
+
+## Set Up Round Two
+
+Follow [this guide] to set up a local Angular 2 hello world.  The `quickstart` folder you create for this app should be at the same level as `starter-code`.  
+
+Before you move on to the next step, take a quick look at the `package.json` inside `quickstart`.  Look at all those `@angular`s.  Those will come into play very soon.  
+
+Also, look at the TypeScript files mentioned in the tutorial and `index.html`.  Change the `name` field in `app.component.ts`, and see it update.  Notice how you don't even have to refresh the page.  Cool, right?
+
+## Getting Started
+
+The amount of files in this project is a little daunting, but you only need to worry about a few files.  Start small, and gradually add in new features from `starter-code` into `quickstart`.
+
+- First, you should probably create an HTML template that is referenced by Url rather than written as a string.  Create a new `templates` folder and put it inside `app`.  How would you replace the hardcoded template with this file? (Hint: It's basically the same as for `ngRoute` in Angular.)
+- Now, the fun part.  Slowly add the pieces of your Angular 1 app from `starter-code/index.html` to `app/templates/cartoon.html` and from `starter-code/client.js` to `app/app.component.ts`.  You can find the code you'll need in [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html).
+
+## Deliverable
+
+When you are finished, you should be able to remove the Angular 1 `<script>` from your `index.html` and still have a fully functioning Angular app.  Only now, it's an Angular 2 app.
