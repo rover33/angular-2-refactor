@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular 1 Is The Best!</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<!--Angular Code Below -->
+<body ng-app="angular1" ng-controller="MainController as controller">
+	<p>My favorite cartoon is <b ng-show="controller.debbyDowner">not</b> : {{controller.favoriteCartoon}}</p>
+	<label>
+		Go Negative: <input type="checkbox" ng-model="controller.debbyDowner">
+	</label>
+	<ul>
+		<li ng-repeat="character in controller.characters" ng-class="{redText: controller.showZoidberg}">{{character.name}}</li>
+	</ul>
+	<h4>I made {{controller.money | currency}} last year.  It's all about the Washingtons, baby!</h4>
+	<div>
+		<button ng-click="controller.woopWoopWoop()">Lobster Doctor</button>
+	</div>
+	<img ng-src="{{controller.imageurl}}" alt="Why Not Zoidberg?" ng-show=controller.showZoidberg>
+	<!--Including JS -->
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="client.js"></script>
+</body>
+</html>
