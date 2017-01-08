@@ -10,15 +10,17 @@ Then, start your `simpleHTTPServer` with `python` to see a fully functioning Ang
 
 Throughout this lab, we will slowly turn our Angular 1 app into an Angular 2 app, using our good friend, **refactoring**.
 
-If you get stuck, you should use [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html) on the Angular 1 and Angular 2 code differences, as well as a healthy amount of Google.
+If you get stuck, you should use [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html) on the Angular 1 and Angular 2 code differences, as well as a healthy amount of Google, and a little bit of help from your neighbors.
 
 ## Set Up Round Two
 
-Follow [this guide] to set up a local Angular 2 hello world.  The `quickstart` folder you create for this app should be at the same level as `starter-code`.  
+Follow [this guide](https://angular.io/docs/ts/latest/guide/setup.html) to set up a local Angular 2 hello world.  The `quickstart` folder you create for this app should be at the same level as `starter-code`.  
 
 Before you move on to the next step, take a quick look at the `package.json` inside `quickstart`.  Look at all those `@angular`s.  Those will come into play very soon.  
 
-Also, look at the TypeScript files mentioned in the tutorial and `index.html`.  Change the `name` field in `app.component.ts`, and see it update.  Notice how you don't even have to refresh the page.  Cool, right?
+Also, look at the TypeScript files mentioned in the tutorial and look at `index.html`.  
+
+Change the `name` field in `app.component.ts`, and see it update.  Notice how you don't even have to refresh the page.  Cool, right?
 
 ## Getting Started
 
