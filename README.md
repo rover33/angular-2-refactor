@@ -1,3 +1,5 @@
+<!-- This needs an hour and a half or more.  Hour is not enough -->
+
 # Angular 2 Refactoring Lab
 
 ## Set Up
