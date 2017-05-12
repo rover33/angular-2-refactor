@@ -1,5 +1,7 @@
 <!-- This needs an hour and a half or more.  Hour is not enough -->
 
+>**Note:** This will be a pair programming activity.  Please select one developer's machine to work on, but make sure you share your code with your partner before leaving class.
+
 # Angular 2 Refactoring Lab
 
 ## Set Up
