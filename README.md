@@ -20,17 +20,17 @@ Before you move on to the next step, take a quick look at the `starter-code` fol
 
 ## Set Up Round Two
 
-Use `ng new` to set up a local Angular 2+ app called `updatedproject`.  The app folder you create with this command should be at the same level as `starter-code`.  
+Use `ng new` to set up a local Angular 2+ app called `updated-project`.  The app folder you create with this command should be at the same level as `starter-code`. Start up this new app. We've got a lot of work to do.... 
 
 ## Getting Started
 
-The amount of files in this project is a little daunting, but you only need to worry about a few files.  Start small, and gradually add in new features from `starter-code` into `updatedproject`.
+The amount of files in this project is a little daunting, but you only need to worry about a few files.  Start small, and gradually add in new features from `starter-code` into `updated-project`.
 
-- First, you should probably create an HTML template that is referenced by Url rather than written as a string.  Create a new `templates` folder and put it inside `app`.  Then, create an HTML file inside this folder.  How would you replace the hardcoded template with this file? (Hint: It's basically the same as for `ngRoute` in Angular.)
-- Now, the fun part.  Slowly add the pieces of your Angular 1 app from `starter-code/index.html` to `updatedproject/src/app/templates/cartoon.html` and from `starter-code/client.js` to `updatedproject/src/app/app.component.ts`.  You can find the code you'll need in [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html).
-- In addition to `app.component.ts` and `cartoon.html`, you may also need to change `app.module.ts` as you go through this refactoring.
-- Once you have all the HTML in `cartoon.html`, use the new Angular 2 `styleUrls` method to include `cartoonStyle.css`.
-- Finally, see if you can get `MyFactory` injected into your component.  Note that there are a lot of ways to do this, and it is quite tricky.  Hint: `export`ing and `import`ing a class is a good place to start.
+- Now, the fun part.  Slowly add the pieces of your Angular 1 app from `starter-code/index.html` to `updated-project/src/app/templates/cartoon.html` and from `starter-code/client.js` to `updated-project/src/app/app.component.ts`.  You will need to change the code slightly for most of these ports.  You can find the code you'll need to do this in [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html).
+>**Hint:** You will definitely want your Developer Tools console open to help you target which things to change.
+- In addition to `app.component.ts` and `app.component.html`, you may also need to change `app.module.ts` as you go through this refactoring to include other helpful library/ies.
+- Once you have all the HTML in `app.component.html`, move the code from `cartoonStyle.css` into the stylesheet of your App Component.
+- Finally, see if you can get `MyFactory` injected into your component as a service.
 
 ## Deliverable
 
