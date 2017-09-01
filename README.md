@@ -1,5 +1,7 @@
 <!-- This needs an hour and a half or more.  Hour is not enough -->
 
+<!--WDI4 9:31 starting intro, 9:41 turning over to devs -->
+
 >**Note:** This will be a pair programming activity.  Please select one developer's machine to work on, but make sure you share your code with your partner before leaving class.
 
 # Angular 2 Refactoring Lab
@@ -7,6 +9,8 @@
 ## Set Up
 
 First, fork and clone this repo.  
+
+First, install bower with `npm install -g bower`.
 
 In the `starter-code` folder, you will need to run `bower install` to install your dependencies.  
 
@@ -35,3 +39,5 @@ The amount of files in this project is a little daunting, but you only need to w
 ## Deliverable
 
 When you are finished, you should be able to look at your Angular 2 and Angular 1 apps side-by-side and see no major differences.
+
+<!--WDI4 devs done at 10:50-->
