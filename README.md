@@ -26,7 +26,7 @@ Use `ng new` to set up a local Angular 2+ app called `updated-project`.  The app
 
 The amount of files in this project is a little daunting, but you only need to worry about a few files.  Start small, and gradually add in new features from `starter-code` into `updated-project`.
 
-- Now, the fun part.  Slowly add the pieces of your Angular 1 app from `starter-code/index.html` to `updated-project/src/app/templates/cartoon.html` and from `starter-code/client.js` to `updated-project/src/app/app.component.ts`.  You will need to change the code slightly for most of these ports.  You can find the code you'll need to do this in [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html).
+- Now, the fun part.  Slowly add the pieces of your Angular 1 app from `starter-code/index.html` to `updated-project/src/app/app.component.html` and from `starter-code/client.js` to `updated-project/src/app/app.component.ts`.  You will need to change the code slightly for most of these ports.  You can find the code you'll need to do this in [this guide](https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html).
 >**Hint:** You will definitely want your Developer Tools console open to help you target which things to change.
 - In addition to `app.component.ts` and `app.component.html`, you may also need to change `app.module.ts` as you go through this refactoring to include other helpful library/ies.
 - Once you have all the HTML in `app.component.html`, move the code from `cartoonStyle.css` into the stylesheet of your App Component.
