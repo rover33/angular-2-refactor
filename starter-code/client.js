@@ -15,7 +15,7 @@ function MainController(MyFactory) {
 	var vm = this;
 	vm.showZoidberg = false;
 	vm.favoriteCartoon = "Futurama";
-	vm.imageurl = "https://i.imgflip.com/1cgykt.jpg";
+	vm.imageurl = "http://s2.quickmeme.com/img/da/daff28bf181a7ca0fb27da5798295233c3a188c2a49a796f1434fe787cfca7fd.jpg";
 	vm.money = 24;
 	vm.characters = [
 		{
