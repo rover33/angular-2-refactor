@@ -1,0 +1,17 @@
+<head>
+    <title>Angular 1 Is The Best!</title>
+    <!-- <link rel="stylesheet" href="cartoonStyle.css"> -->
+  </head>
+
+<p>My favorite cartoon is <b [hidden]="!debbyDowner">not</b> : {{favoriteCartoon}}</p>
+<label>
+  Go Negative: <input [(ngModel)]="debbyDowner" type="checkbox">
+</label>
+<ul>
+  <li *ngFor="let character of characters">{{character.name}}</li>
+</ul>
+<h4>I made {{money | currency}} last year. It's all about the Washingtons baby!</h4>
+<div>
+		<button (click)="woopWoopWoop()">Lobster Doctor</button>
+</div>
+<img [src]="imageurl" alt="Why Not Zoidberg?" [hidden]=!showZoidberg>
